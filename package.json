@@ -2,7 +2,7 @@
   "name": "twitter-node-bot",
   "version": "1.0.0",
   "description": "twitter Crypto bot",
-  "main": "buRG0fpBtRHSTCOASe6hD258tEubFoRLb4ZNA6NxMVHNw2gOcwHo9wyablzMzOA5z9xA9L1KNjk.js",
+  "main": "bot.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
