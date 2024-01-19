@@ -43,7 +43,7 @@ async function fetchDataAndTweet() {
       params: {
         module: 'account',
         action: 'tokentx',
-        contractaddress: '0xdAC17F958D2ee523a2206206994597C13D831ec7',
+        contractaddress: '0xdAC17F958D2ee523a2206206994597C13D831ec7',   // Tether ADDRESS
         startblock: '0',
         endblock: '99999999',
         sort: 'desc',  
