@@ -5,10 +5,10 @@ const { TwitterApi } = require('twitter-api-v2');
 
 // Twitter API v2 credentials 
 const client = new TwitterApi({
-    appKey: 'PiUxcMnKJUwo6JSHvZVw0UPfR',  // API KEY
-    appSecret: 'QHS3uXjlkEGEwKjn5IVE71kpn5CSpm18gaahatx9LRpCKEBBJT',  //API SECRET KEY
-    accessToken: '1746379139504857088-hKk8EXHnGC3Zo51CyK5LdzOpY4WwVb',  //ACCESS TOKEN
-    accessSecret: 'tzWvOIj01pk8E4mu795RKsPJnNG58wZWWando4t7Uj9UX' //ACCESS TOKEN SECRET
+    appKey: 'TWITTER_API_KEY',  // API KEY
+    appSecret: 'TWITTER_API_SECRET_KEY',  //API SECRET KEY
+    accessToken: 'ACCESS_TOKEN',  //ACCESS TOKEN
+    accessSecret: 'ACCESS_TOKEN_SECRET' //ACCESS TOKEN SECRET
 });
 
 const app = express();
@@ -49,7 +49,7 @@ async function fetchDataAndTweet() {
         sort: 'desc',  
         page: 1,      
         offset: 1,   
-        apikey: 'QTWXWBU7QJ6SIZXYPZA2FC57P14F24EG9K' // Your Etherscan API Key
+        apikey: 'ETHERSCAN_API_KEY' // Your Etherscan API Key
       }
     });
 
